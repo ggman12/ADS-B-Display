@@ -57,7 +57,14 @@ function mapUpdate(plane) {
                 map.removeLayer(myPlane.marker);
 
             }
-        }else if(plane.posData != undefined){
+
+        }else if(plane.posData == undefined){
+            if(myPlane.marker!= undefined){
+                map.removeLayer(myPlane.marker);
+
+            }
+        }
+        else if(plane.posData != undefined){
             if (myPlane.marker == undefined) {
                 createMarker(myPlane);
         
