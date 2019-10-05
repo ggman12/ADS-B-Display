@@ -1,5 +1,5 @@
 var Calculations = require('./Calculations');
-var Promises = require('./Promises');
+// var Promises = require('./Promises');
 const request = require('request-promise');
 
 exports.destinationData = function(iata, latitude, longitude, angle, startTime, endTime, startPt){

@@ -3,7 +3,6 @@
 var fs = require('fs');
 var LocalStorage = require('node-localstorage').LocalStorage;
 var PlanePath = require('./PlanePath');
-var Promises = require('./Promises')
 localStorage = new LocalStorage('./local');
 var DataTypes = require('./DataTypes');
 
