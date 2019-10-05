@@ -69,6 +69,7 @@ function mapUpdate(plane) {
                 createMarker(myPlane);
         
             }
+            
             updateMarker(myPlane, posData.latitude, posData.longitude, posData.heading)
             UpdateMarkerWithPlaneInfo(myPlane);
         }
