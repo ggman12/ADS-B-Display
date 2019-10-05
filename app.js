@@ -115,7 +115,7 @@ app.post("/deletePlane", function (req, res) {
 
 })
 
-var listener = app.listen(8000, function () {
+var listener = app.listen(process.env.port, function () {
     Startup();
 
     console.log("ABS-D Display Server has started" + listener.address().port);
@@ -145,8 +145,10 @@ io.sockets.on('connection', function (socket) {
 
     socket.on('disconnect', (reason) => {
         count--;
-        if(count = 0 )
-        PromiseClasses.FlightXMLOP = false;
+        if(count == 0 ){
+            PromiseClasses.FlightXMLOP = false;
+
+        }
         
         console.log(count);
     });
