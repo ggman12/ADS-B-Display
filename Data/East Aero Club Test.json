@@ -1,0 +1,20 @@
+[
+  {
+    "ICAO24": "a1e99f",
+    "Country": "United States",
+    "Tail Number": "N222ND",
+    "Model": "PA-28-161"
+  },
+  {
+    "ICAO24": "a22768",
+    "Country": "United States",
+    "Tail Number": "N238ND",
+    "Model": "PA-28-161"
+  }, 
+  {
+    "ICAO24": "a23ecf",
+    "Country": "United States",
+    "Tail Number": "N2439Z",
+    "Model": "172S"
+  }
+]

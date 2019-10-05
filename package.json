@@ -1,0 +1,22 @@
+{
+  "name": "abs-d-refactored",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Jonah Goode",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "node-localstorage": "^1.3.1",
+    "promise.allsettled": "^1.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0"
+  }
+}

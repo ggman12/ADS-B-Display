@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js'></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet' />
+    <!-- <script src="/leaflet-sidebar/js/leaflet-sidebar.js"></script>
+    <link href = "leaflet-sidebar/css/leaflet-sidebar.css"> -->
+    <script type = "text/javascript" src='leaflet.rotatedMarker.js'></script>
+    <%= %>
+  <style>
+      body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+       
+        
+      </style>
+    <title>MAP</title>
+  </head>
+  <body>
+  <script>
+  var Planes = <%- JSON.stringify(Planes) %>;
+</script>
+<script>
+    var Airports = <%- JSON.stringify(Airports)%>;
+
+</script>
+    <!-- <input type="text" placeholder="Mode S Code" id="hexcode">
+    <input type="submit" onclick="TextInput()" id="button">
+    
+    
+    <ul id="PlaneUL">
+        <li>Hit the gym</li>
+        <li class="checked">Pay bills</li>
+        <li>Meet George</li>
+        <li>Buy eggs</li>
+        <li>Read a book</li>
+        <li>Organize office</li>
+      </ul> -->
+      
+    <div id = "map" > </div>
+    
+          
+    <script>
+    var airportIconTemp = L.divIcon({
+    html: '<object type="image/svg+xml" data="airport.svg" id ="airport" style = "pointer-events: none;"></object>',
+    iconSize: [50, 50],
+    iconAnchor: [25, 16]
+    
+  
+});
+    </script>
+    <!-- <script type="text/javascript" src="PopulatePlanes.js"></script>
+    <script type="text/javascript" src="LocalStorage.js"></script> -->
+    <script type="text/javascript" src="ButtonSetup.js"></script>
+    
+    <script type="text/javascript" src="CountSettingsBar.js"></script>
+    <script type="text/javascript" src="NumberInput.js"></script>
+    
+    <script type = "text/javascript" src = "CreateFlightXMLForm.js"></script>
+    
+    <script type="text/javascript" src="SettingsBar.js"></script>
+    
+    <script type="text/javascript" src="TableBar.js"></script>
+
+    <script type="text/javascript" src="MapMaker.js"></script>
+    <script type="text/javascript" src="Airport.js"></script>
+    <script src="/socket.js"></script>
+
+    <!-- <script type="text/javascript" src="OpenSkyRequest.js"></script> -->
+    
+
+  
+  </body>
+  
+</html>

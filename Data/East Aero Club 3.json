@@ -1,0 +1,98 @@
+[
+  
+  {
+    "ICAO24": "a1b247",
+    "Country": "United States",
+    "Tail Number": "N2081S",
+    "Model": "172S",
+    "Year": 2005
+  },
+  {
+    "ICAO24": "a1e99f",
+    "Country": "United States",
+    "Tail Number": "N222ND",
+    "Model": "PA-28-161",
+    "Year": 2000
+  },
+  {
+    "ICAO24": "a2400b",
+    "Country": "United States",
+    "Tail Number": "N244ND",
+    "Model": "PA-28-161",
+    "Year": 1999
+  },
+
+  {
+    "ICAO24": "a2ba3f",
+    "Country": "United States",
+    "Tail Number": "N275ND",
+    "Model": "PA-28-161",
+    "Year": 2000
+  },
+  {
+    "ICAO24": "a2bdf6",
+    "Country": "United States",
+    "Tail Number": "N276ND",
+    "Model": "PA-28-161",
+    "Year": 2000
+  },
+  {
+    "ICAO24": "a22b1f",
+    "Country": "United States",
+    "Tail Number": "N239ND",
+    "Model": "PA-28-161",
+    "Year": 2000
+  },
+  {
+    "ICAO24": "a2529e",
+    "Country": "United States",
+    "Tail Number": "N249ND",
+    "Model": "PA-28-161",
+    "Year": 1999
+  },
+  {
+    "ICAO24": "a2cf2b",
+    "Country": "United States",
+    "Tail Number": "N280ND",
+    "Model": "PA-28R-201",
+    "Year": 1998
+  },
+  
+  {
+    "ICAO24": "a2802d",
+    "Country": "United States",
+    "Tail Number": "N260ND",
+    "Model": "PA-28-161",
+    "Year": 1999
+  },
+ 
+  {
+    "ICAO24": "a5a1d3",
+    "Country": "United States",
+    "Tail Number": "N462JB",
+    "Model": "182T",
+    "Year": 2004
+  },
+   
+  {
+    "ICAO24": "aa23ea",
+    "Country": "United States",
+    "Tail Number": "N75202",
+    "Model": "PA-28-151",
+    "Year": 1976
+  },
+       
+  {
+    "ICAO24": "acb702",
+    "Country": "United States",
+    "Tail Number": "N9182A",
+    "Model": "PA-38-112",
+    "Year": 1982
+  },
+  {
+    "ICAO24": "a930ce",
+    "Country": "United States",
+    "Tail Number": "N6910J",
+    "Model": "PA-28-151"
+  }
+]
