@@ -115,7 +115,7 @@ app.post("/deletePlane", function (req, res) {
 
 })
 
-var listener = app.listen(process.env.port, function () {
+var listener = app.listen(process.env.PORT, process.env.IP, function () {
     Startup();
 
     console.log("ABS-D Display Server has started" + listener.address().port);
