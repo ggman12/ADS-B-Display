@@ -9,4 +9,4 @@ Apps like FlightAware are great for tracking a single plane but don’t have the
 
 This app is designed solely for flight schools and gives the information and options that a Flight school would need.  
 
-More Info: https://drive.google.com/file/d/1SU4w3cPf6JnFgRv44NDWEgN1yNCo4ZXt/view?usp=sharing
+More Info: https://docs.google.com/document/d/1BUnqIR6nU-uA42ZCDdrZ2VTwPKaOVVDxjkBqhBh2COU/edit?usp=sharing
