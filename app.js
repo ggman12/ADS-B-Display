@@ -124,7 +124,7 @@ var listener = app.listen(process.env.PORT, process.env.IP, function () {
 //Socket Setup
 var count = 0;
 var io = socket(listener);
-var SocketSetup = require('./SocketSetup')
+// var SocketSetup = require('./SocketSetup')
 // SocketSetup.Setup(io, count);
 io.sockets.on('connection', function (socket) {
     console.log("socket connection", socket.id);

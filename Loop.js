@@ -22,6 +22,7 @@ module.exports = async function (io, Planes, Airports) {
         console.log(plane.type)
     });
     await allSettled(promiseArray).then((results) => {
+        // Do something with each result from the promiseArray results array
         for (let i = 0; i < results.length; i++) {
 
             const result = results[i]
@@ -51,9 +52,9 @@ module.exports = async function (io, Planes, Airports) {
                     plane.type = "Not Live";
                     
                 }
-                // if(findPlaneIndex(Planes, plane) != false){
+                
                     emitUpdate(plane, io, Planes)
-                // }
+                
                
             } else {
                 let plane = result.value;
@@ -148,6 +149,7 @@ function GetPlaneCounts(Planes) {
     }
 }
 function emitUpdate(plane,io, Planes) {
+    //emit update to all connected clients with Socket.Js
     io.emit("update", {
         plane: plane, 
         count: GetPlaneCounts(Planes),
